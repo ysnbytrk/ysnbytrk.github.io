@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Zikirmatik – Destek</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --text: #1d2321;
+    --muted: #55605c;
+    --accent: #0e7c66;
+    --border: #dfe3e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111615;
+      --surface: #182020;
+      --text: #e7ecea;
+      --muted: #a4b0ac;
+      --accent: #5cc9ae;
+      --border: #2b3533;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  section { padding-top: 24px; margin-top: 32px; border-top: 1px solid var(--border); }
+  section:first-of-type { border-top: 0; margin-top: 0; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 0 0 8px; }
+  p { overflow-wrap: anywhere; margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 16px; }
+</style>
+</head>
+<body>
+<main>
+  <section id="tr" lang="tr">
+    <h1>Zikirmatik</h1>
+    <p class="meta">Tesbih sayacı ve namaz vakitleri. iPhone ve Android için.</p>
+    <h2>Destek</h2>
+    <p>Soru, öneri ve hata bildirimleri için: <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a></p>
+    <p>Uygulama hesap açtırmaz; sayımlarınız ve ayarlarınız cihazınızda kalır. Ayrıntılar: <a href="privacy/#tr">Gizlilik politikası</a></p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Support</h2>
+    <p>Zikirmatik is a tasbih counter with prayer times, for iPhone and Android.</p>
+    <p>Questions, suggestions and bug reports: <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a></p>
+    <p>The app has no accounts; your counts and settings stay on your device. Details: <a href="privacy/#en">Privacy policy</a></p>
+  </section>
+
+  <section id="de" lang="de">
+    <h2>Support</h2>
+    <p>Zikirmatik ist ein Tesbih-Zähler mit Gebetszeiten, für iPhone und Android.</p>
+    <p>Fragen, Vorschläge und Fehlermeldungen: <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a></p>
+    <p>Die App hat keine Konten; deine Zählungen und Einstellungen bleiben auf deinem Gerät. Einzelheiten: <a href="privacy/#de">Datenschutzerklärung</a></p>
+  </section>
+</main>
+</body>
+</html>

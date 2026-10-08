@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<title>Zikirmatik – Datenschutz</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --text: #1d2321;
+    --muted: #55605c;
+    --accent: #0e7c66;
+    --border: #dfe3e0;
+    --mark: #fff2c2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111615;
+      --surface: #182020;
+      --text: #e7ecea;
+      --muted: #a4b0ac;
+      --accent: #5cc9ae;
+      --border: #2b3533;
+      --mark: #4a3f14;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { max-width: 720px; margin: 0 auto; padding: 24px 16px 0; }
+  nav.lang { display: flex; gap: 8px; flex-wrap: wrap; }
+  nav.lang a {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 44px; min-width: 44px; padding: 0 14px;
+    border: 1px solid var(--border); border-radius: 22px;
+    background: var(--surface); color: var(--text); text-decoration: none; font-weight: 600;
+  }
+  nav.lang a:hover, nav.lang a:focus-visible { border-color: var(--accent); color: var(--accent); }
+  section { padding-top: 24px; margin-top: 32px; border-top: 1px solid var(--border); }
+  section:first-of-type { border-top: 0; margin-top: 0; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 28px 0 8px; }
+  p, li { overflow-wrap: anywhere; }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 16px; }
+  .ph { background: var(--mark); padding: 0 4px; border-radius: 4px; font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 0.95em; }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; }
+  .top { display: inline-block; margin-top: 16px; }
+</style>
+</head>
+<body>
+<header id="top">
+  <nav class="lang" aria-label="Sprache / Dil / Language">
+    <a href="#de" hreflang="de" lang="de">Deutsch</a>
+    <a href="#tr" hreflang="tr" lang="tr">Türkçe</a>
+    <a href="#en" hreflang="en" lang="en">English</a>
+  </nav>
+</header>
+<main>
+
+<!-- ============================ DEUTSCH ============================ -->
+<section id="de" lang="de">
+  <h1>Datenschutzerklärung für die App Zikirmatik</h1>
+  <p class="meta">Gültig ab 24. September 2026</p>
+
+  <div class="box">
+    <p><strong>Kurz gesagt:</strong> Zikirmatik hat kein Benutzerkonto und keinen eigenen Server. Ihre Zählerstände, Zikr-Einträge und Einstellungen bleiben auf Ihrem Gerät. Für die Gebetszeiten fragt die App den Dienst Aladhan ab. Für die Werbung ist Google AdMob eingebunden; ob Google dabei personalisierte Werbung zeigen darf, entscheiden Sie im Einwilligungsdialog.</p>
+  </div>
+
+  <h2>1. Verantwortlicher und Kontakt</h2>
+  <p>Yasin Baytürk<br>
+  Habichtgasse 3, 88046 Friedrichshafen, Deutschland<br>
+  E-Mail: <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a></p>
+  <p>Ein Datenschutzbeauftragter ist nicht benannt.</p>
+
+  <h2>2. Daten, die nur auf Ihrem Gerät gespeichert werden</h2>
+  <p>Die App speichert folgende Angaben im lokalen App-Speicher Ihres Geräts. Wir erhalten diese Daten nicht.</p>
+  <ul>
+    <li>Ihre Zikr-Liste (mitgelieferte und selbst angelegte Einträge)</li>
+    <li>Zählerstände je Zikr, Tageszählungen für die Statistik und den zuletzt benutzten Zikr</li>
+    <li>Einstellungen: Sprache, Erscheinungsbild, Vibration, Berechnungsmethode und Rechtsschule für die Gebetszeiten, Erinnerungen an oder aus und deren Vorlaufzeit</li>
+    <li>Ihren Standort für die Gebetszeiten: entweder die gewählte Stadt oder die vergröberten GPS-Koordinaten (siehe Abschnitt 3), dazu Anzeigename und Zeitzone</li>
+    <li>ob die Einführung abgeschlossen ist und für welche Gerätezeitzone Sie den Hinweis „Zeitzone hat sich geändert“ ausgeblendet haben</li>
+    <li>zwischengespeicherte Gebetszeiten, damit die App auch ohne Internet funktioniert. Sie werden je Tag zusammen mit dem verwendeten Standort (Stadt oder gerundete Position) gespeichert. Ältere Einträge werden nicht automatisch gelöscht und in der App nicht angezeigt.</li>
+    <li>die Zahl abgeschlossener Zählrunden und die Zeitpunkte, zu denen Vollbild-Anzeigen gezeigt wurden, damit die App seltener Werbung zeigt (Frequenzbegrenzung)</li>
+    <li>eine technische Versionsnummer des Speicherformats</li>
+  </ul>
+  <p>Zusätzlich speichert das Google-Werbe-SDK Ihre Einwilligungsentscheidung auf dem Gerät (siehe Abschnitt 6). Erinnerungen werden vom Betriebssystem Ihres Geräts verwaltet (siehe Abschnitt 5). Je nach Geräteeinstellungen kann das Betriebssystem App-Daten in Geräte-Backups aufnehmen; das steuern Sie in den Einstellungen Ihres Geräts.</p>
+  <p>Rechtsgrundlage: Die Speicherung auf Ihrem Gerät ist für die von Ihnen genutzten Funktionen unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Soweit dabei personenbezogene Daten verarbeitet werden, stützen wir uns auf Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse ist, dass die App wie erwartet funktioniert und Ihre Zählerstände nicht verloren gehen.</p>
+
+  <h2>3. Standort</h2>
+  <p>Sie können eine Stadt aus einer in der App enthaltenen Liste wählen. Dann verwendet die App die Koordinaten dieser Stadt, nicht Ihren tatsächlichen Standort.</p>
+  <p>Wahlweise können Sie „Meinen Standort verwenden“ nutzen. Die App fragt dann nach der Standortberechtigung und ermittelt den Standort einmalig, während die App geöffnet ist. Einen Standortzugriff im Hintergrund gibt es nicht. Bevor die Koordinaten gespeichert oder gesendet werden, rundet die App sie auf ein Raster von 0,03 Grad. Das sind in Nord-Süd-Richtung etwa 3,3 km; in Mitteleuropa umfasst eine Rasterzelle mehrere Quadratkilometer. Ihr genauer Standort wird weder gespeichert noch übertragen. Die nächstgelegene Stadt für die Anzeige wird auf dem Gerät bestimmt.</p>
+  <p>Die Standortberechtigung können Sie jederzeit in den Einstellungen Ihres Geräts entziehen und stattdessen eine Stadt wählen.</p>
+  <p>Die Stadtliste stützt sich auf Daten von GeoNames (CC BY 4.0), die teilweise angepasst wurden. Sie enthält keine Angaben über Sie.</p>
+
+  <h2>4. Gebetszeiten über Aladhan</h2>
+  <p>Um die Gebetszeiten zu berechnen, sendet die App eine Anfrage direkt an <code>api.aladhan.com</code>. Das geschieht, wenn Sie die Einführung abschließen, wenn Sie die Gebetszeiten öffnen oder aktualisieren (auch wenn Sie auf diesem Bildschirm in die App zurückkehren oder auf „Wiederholen“ tippen) und wenn Sie Standort, Berechnungsmethode oder Rechtsschule ändern. Liegen für diesen Tag, diesen Standort und diese Einstellungen schon Gebetszeiten im Zwischenspeicher, die höchstens sechs Stunden alt sind, nutzt die App diese und sendet keine Anfrage. Die Anfrage enthält das Datum, die Koordinaten aus Abschnitt 3 (Stadtkoordinaten oder vergröberte GPS-Koordinaten), die gewählte Berechnungsmethode und die Rechtsschule. Wie bei jeder Internetverbindung erhält der Empfänger dabei technisch Ihre IP-Adresse. Wie jede Web-Anfrage enthält sie außerdem übliche technische Angaben, etwa den User-Agent (Angaben zur verwendeten Software). Weitere Angaben, etwa Kennungen oder Ihre Zählerdaten, sendet die App nicht.</p>
+  <p>Empfänger ist der Dienst AlAdhan.com (Teil des Islamic Network), ein unabhängiger Anbieter. Wo Aladhan Daten verarbeitet und wie lange es sie speichert, ist uns nicht bekannt; eine Verarbeitung außerhalb der EU bzw. des EWR ist möglich. Die Nutzungsbedingungen von Aladhan finden Sie unter <a href="https://aladhan.com/credits-and-terms" rel="noopener">aladhan.com/credits-and-terms</a>.</p>
+  <p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, Ihnen die Gebetszeiten anzuzeigen und Ihre Erinnerungen danach zu planen. Die übermittelten Angaben sind auf das Nötigste beschränkt, und Sie können statt GPS jederzeit eine Stadt wählen.</p>
+
+  <h2>5. Erinnerungen</h2>
+  <p>Wenn Sie Gebetserinnerungen einschalten, fragt die App nach der Berechtigung für Mitteilungen. Die Erinnerungen werden lokal auf Ihrem Gerät geplant. Es gibt keinen Push-Server, und es wird kein Push-Token erzeugt oder übertragen.</p>
+
+  <h2>6. Werbung (Google AdMob)</h2>
+  <p>Die App ist kostenlos und finanziert sich über Werbung. Dafür ist das Google Mobile Ads SDK eingebunden. Nach Angaben von Google erhebt es dabei unter anderem Ihre IP-Adresse, Geräte- und Werbekennungen (zum Beispiel die Werbe-ID), Informationen über Ihre Interaktionen mit der App und mit Anzeigen (etwa App-Starts, Tippen und Videoaufrufe) sowie Diagnosedaten. Google nutzt diese Daten für Werbung, Messung und Betrugsabwehr.</p>
+  <p>Beim Start fragt die App über Googles Einwilligungsdialog (User Messaging Platform) nach Ihrer Einwilligung, sofern diese erforderlich ist, etwa im EWR und im Vereinigten Königreich. Erst wenn Googles Einwilligungsdienst meldet, dass Anzeigen angefordert werden dürfen, startet die App das Werbe-SDK und lädt Werbung. Erst dann beginnt auch die eigene Messung des Werbe-SDK. Auf iOS kann außerdem die Systemabfrage „App-Tracking-Transparenz“ erscheinen; wo die DSGVO gilt (etwa im EWR), erscheint sie nur, wenn Sie im Einwilligungsdialog dem Speichern und Auslesen von Informationen auf Ihrem Gerät zugestimmt haben. Erst wenn Sie in dieser Systemabfrage zustimmen, darf die Werbe-ID des Geräts (IDFA) genutzt werden.</p>
+  <p>Bei jedem Start fragt die App bei Googles Einwilligungsdienst ab, ob eine Einwilligung erforderlich ist. Dabei erhält Google Ihre IP-Adresse. Rechtsgrundlage dafür ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse ist, Einwilligungen rechtmäßig einzuholen und zu verwalten.</p>
+  <p>Ohne Einwilligung zeigt Google nach eigenen Angaben keine personalisierte Werbung. Möglich sind dann nicht personalisierte Anzeigen, die sich nicht auf Ihr früheres Verhalten stützen, sondern auf den Kontext, etwa die App und einen ungefähren Standort auf Stadtebene aus der IP-Adresse. Laut Google werden Kennungen auch bei nicht personalisierten Anzeigen für die Frequenzbegrenzung und zusammengefasste Berichte verwendet. Wo eine Einwilligung erforderlich ist, geschieht das nur, wenn Sie dem Speichern und Auslesen von Informationen auf Ihrem Gerät zugestimmt haben. Haben Sie dem nicht zugestimmt, zeigt Google gegebenenfalls nur eingeschränkte Anzeigen („Limited Ads“).</p>
+  <p>Für personalisierte Werbung und für das Speichern oder Auslesen von Kennungen auf Ihrem Gerät ist Ihre Einwilligung die Rechtsgrundlage (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Für die Auslieferung nicht personalisierter Anzeigen stützen wir uns auf Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, die App kostenlos anbieten zu können.</p>
+  <p>Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen oder ändern, und zwar in der App unter Einstellungen → „Werbe-Datenschutzoptionen“. Dieser Eintrag erscheint nur, wenn Googles Einwilligungsdienst ihn für Ihre Region verlangt, etwa im EWR. Wenn Sie die App-Daten in den Geräteeinstellungen löschen oder die App deinstallieren, wird auch die gespeicherte Einwilligungsentscheidung entfernt; wo eine Einwilligung erforderlich ist, fragt die App beim nächsten Start erneut. Auf iOS können Sie das Tracking außerdem in den iOS-Einstellungen unter „Datenschutz &amp; Sicherheit“ → „Tracking“ erlauben oder verbieten. Auf Android können Sie Ihre Werbe-ID in den Geräteeinstellungen zurücksetzen oder löschen.</p>
+  <p>Empfänger dieser Daten ist Google. Für Nutzer im EWR und in der Schweiz nennt Google in seiner Datenschutzerklärung die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland, als Verantwortliche. Dabei können Daten auch in Länder außerhalb der EU bzw. des EWR übermittelt werden, insbesondere in die USA, wo ein anderes Datenschutzniveau bestehen kann. Nach eigenen Angaben ist Google LLC nach dem EU-U.S. Data Privacy Framework zertifiziert; wo es erforderlich ist und kein Angemessenheitsbeschluss greift, stützt sich Google auf Standardvertragsklauseln: <a href="https://policies.google.com/privacy/frameworks" rel="noopener">policies.google.com/privacy/frameworks</a>.</p>
+  <p>Wie Google Daten aus Apps verwendet, die Google-Dienste nutzen, erklärt Google hier: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>. Die Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
+  <p>Vollbild-Anzeigen können nur erscheinen, wenn Sie nach einer abgeschlossenen Zählrunde die Zusammenfassung schließen. Während Sie zählen, zeigt die App keine Werbung.</p>
+
+  <h2>7. Was die App nicht tut</h2>
+  <ul>
+    <li>Es gibt kein Benutzerkonto und keinen eigenen Server. Wir selbst erhalten über die App keine personenbezogenen Daten.</li>
+    <li>Die App hat kein eigenes Analysewerkzeug und keine Absturzberichterstattung. Das Google-Werbe-SDK misst selbst für Werbezwecke und zur Betrugsabwehr; diese Messung beginnt erst nach dem Einwilligungsschritt (siehe Abschnitt 6).</li>
+  </ul>
+  <p>Beim Herunterladen der App verarbeiten Apple bzw. Google als Betreiber des App Store bzw. von Google Play Daten in eigener Verantwortung. Tippen Sie in der App auf einen Link (etwa zu GeoNames oder zum Lizenztext), öffnet sich die verlinkte Website. Sie erhält Ihre IP-Adresse und verarbeitet sie in eigener Verantwortung.</p>
+  <p>Sie sind weder gesetzlich noch vertraglich verpflichtet, Daten bereitzustellen. Ohne Standortzugriff wählen Sie eine Stadt. Ohne Werbe-Einwilligung sehen Sie nicht personalisierte oder eingeschränkte Anzeigen; die App funktioniert trotzdem. Wir treffen keine automatisierten Entscheidungen im Sinne von Art. 22 DSGVO. Bei personalisierter Werbung erstellt Google Profile (siehe Abschnitt 6).</p>
+
+  <h2>8. Speicherdauer</h2>
+  <p>Die Daten auf Ihrem Gerät bleiben dort, bis Sie die App-Daten in den Geräteeinstellungen löschen oder die App deinstallieren. Löschen Sie in der App einen Zikr-Eintrag, wird er nur ausgeblendet; direkt danach können Sie das rückgängig machen. Endgültig entfernt werden ausgeblendete Einträge erst, wenn Sie die App-Daten löschen oder die App deinstallieren. Zähler können Sie zurücksetzen. Ausgeblendete Einträge bleiben samt ihren Zählerständen und Tageszählungen gespeichert, und nach dem Zurücksetzen eines Zählers bleibt die Tagesstatistik erhalten. Wie lange Google und Aladhan Daten speichern, legen diese Anbieter selbst fest; bitte beachten Sie deren oben verlinkte Angaben.</p>
+
+  <h2>9. Ihre Rechte</h2>
+  <p>Sie haben nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21). Eine erteilte Einwilligung können Sie jederzeit widerrufen (Art. 7 Abs. 3); die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung bleibt unberührt.</p>
+  <p class="box"><strong>Widerspruchsrecht:</strong> Sie können aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit jeder Verarbeitung widersprechen, die wir in dieser Erklärung auf Art. 6 Abs. 1 lit. f DSGVO stützen, also in den Abschnitten 2, 4 und 6 (Art. 21 DSGVO). Schreiben Sie dazu an <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a>. Praktisch können Sie außerdem die Daten aus Abschnitt 2 entfernen, indem Sie die App-Daten in den Geräteeinstellungen löschen. Statt GPS können Sie eine Stadt wählen. Nach der Einführung sendet die App weitere Anfragen an Aladhan nur, wenn Sie die Gebetszeiten öffnen oder aktualisieren oder Standort, Berechnungsmethode oder Rechtsschule ändern.</p>
+  <p>So setzen Sie diese Rechte um:</p>
+  <ul>
+    <li>Werbe-Einwilligung: in der App unter Einstellungen → „Werbe-Datenschutzoptionen“, sofern Googles Einwilligungsdienst diesen Eintrag für Ihre Region verlangt (etwa im EWR), oder indem Sie die App-Daten löschen bzw. die App deinstallieren (siehe Abschnitt 6).</li>
+    <li>Daten auf dem Gerät: Das meiste davon sehen Sie in der App (Zikr-Liste, Zählerstände, Statistik, Einstellungen, Standort). Technische Hilfswerte zeigt die App nicht an, etwa die Werte für die Frequenzbegrenzung der Werbung, die Zahl abgeschlossener Zählrunden, die Version des Speicherformats, ausgeblendete Zikr-Einträge, ältere zwischengespeicherte Gebetszeiten und die gespeicherte Einwilligungsentscheidung. Löschen können Sie sie, indem Sie die App-Daten in den Geräteeinstellungen löschen oder die App deinstallieren.</li>
+    <li>Bei Fragen können Sie uns unter <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a> schreiben. Da wir keine Daten über Sie speichern, können wir in der Regel nur Auskunft über die in dieser Erklärung beschriebenen Abläufe geben. Anfragen zu Daten bei Google oder Aladhan richten Sie bitte an diese Anbieter.</li>
+  </ul>
+  <p>Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO), insbesondere in dem Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes.</p>
+
+  <h2>10. Kinder</h2>
+  <p>Die App richtet sich nicht an Kinder unter 16 Jahren. Eine Altersprüfung findet nicht statt.</p>
+
+  <h2>11. Änderungen</h2>
+  <p>Wenn sich die App oder die Rechtslage ändert, passen wir diese Erklärung an. Es gilt die jeweils auf dieser Seite veröffentlichte Fassung mit dem oben genannten Datum.</p>
+
+  <a class="top" href="#top">Nach oben</a>
+</section>
+
+<!-- ============================ TÜRKÇE ============================ -->
+<section id="tr" lang="tr">
+  <h1>Zikirmatik Uygulaması Gizlilik Politikası</h1>
+  <p class="meta">Yürürlük tarihi: 24 Eylül 2026</p>
+
+  <div class="box">
+    <p><strong>Özetle:</strong> Zikirmatik'te kullanıcı hesabı yok, kendi sunucumuz da yok. Sayaçlarınız, zikirleriniz ve ayarlarınız cihazınızda kalır. Uygulama namaz vakitleri için Aladhan hizmetine istek gönderir. Reklamlar Google AdMob üzerinden gösterilir; Google'ın size kişiselleştirilmiş reklam gösterip gösteremeyeceğine onay penceresinde siz karar verirsiniz.</p>
+  </div>
+
+  <h2>1. Veri sorumlusu ve iletişim</h2>
+  <p>Yasin Baytürk<br>
+  Habichtgasse 3, 88046 Friedrichshafen, Almanya<br>
+  E-posta: <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a></p>
+  <p>Atanmış bir veri koruma görevlisi yoktur.</p>
+
+  <h2>2. Yalnızca cihazınızda saklanan veriler</h2>
+  <p>Uygulama aşağıdaki bilgileri cihazınızın yerel uygulama belleğinde saklar. Bu veriler bize ulaşmaz.</p>
+  <ul>
+    <li>Zikir listeniz (uygulamayla gelen ve sizin eklediğiniz zikirler)</li>
+    <li>Her zikrin sayaç değeri, istatistik için günlük sayımlar ve en son kullandığınız zikir</li>
+    <li>Ayarlar: dil, görünüm, titreşim, namaz vakti hesaplama yöntemi ve ikindi vakti için mezhep, hatırlatıcıların açık ya da kapalı olması ve vakitten kaç dakika önce çalacağı</li>
+    <li>Namaz vakitleri için konumunuz: seçtiğiniz şehir ya da kabalaştırılmış GPS koordinatları (bkz. 3. bölüm), ayrıca görünen ad ve saat dilimi</li>
+    <li>Tanıtım ekranlarını tamamlayıp tamamlamadığınız ve "Saat diliminiz değişti" uyarısını hangi cihaz saat dilimi için kapattığınız</li>
+    <li>Uygulamanın internetsiz de çalışabilmesi için önbelleğe alınan namaz vakitleri. Bunlar her gün için ayrı ayrı, kullanılan konumla (şehir ya da yuvarlanmış konum) birlikte saklanır. Eski kayıtlar otomatik olarak silinmez ve uygulamada gösterilmez.</li>
+    <li>Reklamların sık gösterilmemesi için tamamlanan zikir turlarının sayısı ve tam ekran reklamların gösterildiği zamanlar (sıklık sınırı)</li>
+    <li>Kayıt biçiminin teknik sürüm numarası</li>
+  </ul>
+  <p>Google'ın reklam SDK'sı da onay tercihinizi cihazda saklar (bkz. 6. bölüm). Hatırlatıcıları cihazınızın işletim sistemi yönetir (bkz. 5. bölüm). Cihaz ayarlarınıza bağlı olarak işletim sistemi uygulama verilerini cihaz yedeklerine dahil edebilir; bunu cihazınızın ayarlarından siz belirlersiniz.</p>
+  <p>Hukuki dayanak: Verilerin cihazınızda saklanması, kullandığınız işlevler için zorunludur (Alman TDDDG § 25 f. 2 b. 2). Kişisel veri işlendiği ölçüde GDPR m. 6/1-f'ye dayanırız. Meşru menfaatimiz, uygulamanın beklendiği gibi çalışması ve sayaçlarınızın kaybolmamasıdır.</p>
+
+  <h2>3. Konum</h2>
+  <p>Uygulamadaki listeden bir şehir seçebilirsiniz. Bu durumda uygulama sizin gerçek konumunuzu değil, o şehrin koordinatlarını kullanır.</p>
+  <p>İsterseniz "Konumumu kullan" seçeneğini de kullanabilirsiniz. O zaman uygulama konum izni ister ve konumunuzu uygulama açıkken bir kez alır. Arka planda konum erişimi yoktur. Koordinatlar kaydedilmeden ya da gönderilmeden önce 0,03 derecelik bir ızgaraya yuvarlanır. Bu, kuzey-güney yönünde yaklaşık 3,3 km'ye karşılık gelir; Orta Avrupa'da bir ızgara hücresi birkaç kilometrekarelik bir alanı kapsar. Tam konumunuz ne saklanır ne de gönderilir. Ekranda gösterilen en yakın şehir cihazda belirlenir.</p>
+  <p>Konum iznini cihaz ayarlarından istediğiniz zaman geri alabilir, bunun yerine bir şehir seçebilirsiniz.</p>
+  <p>Şehir listesi GeoNames verilerine (CC BY 4.0) dayanır; bu verilerin bir kısmı uyarlanmıştır. Listede sizinle ilgili hiçbir bilgi yoktur.</p>
+
+  <h2>4. Aladhan üzerinden namaz vakitleri</h2>
+  <p>Uygulama, namaz vakitlerini hesaplamak için doğrudan <code>api.aladhan.com</code> adresine istek gönderir. Bu istek şu durumlarda gönderilir: tanıtım ekranlarını tamamladığınızda, namaz vakitleri ekranını açtığınızda ya da yenilediğinizde ve konumu, hesaplama yöntemini veya mezhebi değiştirdiğinizde. Bu ekrandayken uygulamaya geri dönmeniz ya da "Yeniden dene"ye dokunmanız da ekranı yeniler. Önbellekte o gün, o konum ve o ayarlar için en fazla altı saat önce alınmış vakitler varsa uygulama bunları kullanır, istek göndermez. İstekte tarih, 3. bölümdeki koordinatlar (şehir koordinatları ya da kabalaştırılmış GPS koordinatları), seçtiğiniz hesaplama yöntemi ve mezhep bulunur. Her internet bağlantısında olduğu gibi, alıcı teknik olarak IP adresinizi de görür. Bu istek, her web isteği gibi, standart teknik bilgiler de içerir; örneğin kullanılan yazılımı bildiren user agent bilgisi. Uygulama bunun dışında bir bilgi göndermez; örneğin tanımlayıcılar ya da sayaç verileriniz bu isteğe eklenmez.</p>
+  <p>Alıcı, bağımsız bir hizmet olan AlAdhan.com'dur (Islamic Network'ün parçası). Aladhan'ın verileri nerede işlediğini ve ne kadar süre sakladığını bilmiyoruz; verilerin AB ya da AEA dışında işlenmesi mümkündür. Aladhan'ın kullanım koşulları: <a href="https://aladhan.com/credits-and-terms" rel="noopener">aladhan.com/credits-and-terms</a>.</p>
+  <p>Hukuki dayanak GDPR m. 6/1-f'dir. Meşru menfaatimiz, size namaz vakitlerini göstermek ve hatırlatıcılarınızı bu vakitlere göre planlamaktır. Gönderilen bilgiler en aza indirilmiştir ve GPS yerine her zaman bir şehir seçebilirsiniz.</p>
+
+  <h2>5. Hatırlatıcılar</h2>
+  <p>Namaz hatırlatıcılarını açtığınızda uygulama bildirim izni ister. Hatırlatıcılar cihazınızda yerel olarak planlanır. Anlık bildirim (push) sunucusu yoktur; push token oluşturulmaz ve gönderilmez.</p>
+
+  <h2>6. Reklamlar (Google AdMob)</h2>
+  <p>Uygulama ücretsizdir ve giderlerini reklamlarla karşılar. Bunun için Google Mobile Ads SDK kullanılır. Google'ın açıklamasına göre bu SDK başka verilerin yanı sıra IP adresinizi, cihaz ve reklam tanımlayıcılarını (örneğin reklam kimliği), uygulamayla ve reklamlarla etkileşimlerinize dair bilgileri (örneğin uygulamanın açılması, dokunmalar ve video izlemeleri) ve tanılama verilerini toplar. Google bu verileri reklam, ölçüm ve dolandırıcılığı önleme amacıyla kullanır.</p>
+  <p>Onayın gerekli olduğu yerlerde (örneğin AEA'da ve Birleşik Krallık'ta) uygulama açılışta Google'ın onay penceresini (User Messaging Platform) gösterir. Uygulama, reklam SDK'sını başlatmak ve reklam yüklemek için Google'ın onay hizmetinin reklam istenebileceğini bildirmesini bekler. Reklam SDK'sının kendi ölçümü de ancak bundan sonra başlar. iOS'ta ayrıca sistemin izleme izni sorusu ("App Tracking Transparency") görünebilir; GDPR'ın geçerli olduğu yerlerde (örneğin AEA'da) bu soru yalnızca onay penceresinde cihazınızda bilgi saklanmasına ve okunmasına onay verdiyseniz gösterilir. Cihazın reklam kimliği (IDFA) ancak bu soruda izin verirseniz kullanılabilir.</p>
+  <p>Uygulama her açılışta Google'ın onay hizmetine, sizden onay alınması gerekip gerekmediğini sorar. Bu sırada Google IP adresinizi alır. Bunun hukuki dayanağı GDPR m. 6/1-f'dir; meşru menfaatimiz, onayları hukuka uygun biçimde almak ve yönetmektir.</p>
+  <p>Onay vermezseniz Google, kendi açıklamasına göre kişiselleştirilmiş reklam göstermez. Bu durumda geçmiş davranışınıza değil bağlama dayanan kişiselleştirilmemiş reklamlar gösterilebilir. Bu reklamlar örneğin uygulamanın kendisine ve IP adresinden çıkarılan, şehir düzeyindeki yaklaşık konuma dayanır. Google'a göre tanımlayıcılar, kişiselleştirilmemiş reklamlarda da sıklık sınırı ve toplu raporlar için kullanılır. Onayın gerekli olduğu yerlerde tanımlayıcılar bu amaçla ancak cihazınızda bilgi saklanmasına ve okunmasına onay verdiyseniz kullanılır. Bu onayı vermediyseniz Google yalnızca sınırlı reklamlar ("Limited Ads") gösterebilir.</p>
+  <p>Kişiselleştirilmiş reklamlar ve cihazınızda tanımlayıcıların saklanması ya da okunması için dayanak onayınızdır (GDPR m. 6/1-a, TDDDG § 25 f. 1). Kişiselleştirilmemiş reklamların gösterilmesi için GDPR m. 6/1-f'ye dayanırız; meşru menfaatimiz, uygulamayı ücretsiz sunabilmektir.</p>
+  <p>Onayınızı istediğiniz zaman, ileriye dönük olarak geri alabilir ya da değiştirebilirsiniz: uygulamada Ayarlar → "Reklam gizlilik seçenekleri". Bu seçenek yalnızca Google'ın onay hizmeti bulunduğunuz bölge için gerekli gördüğünde (örneğin AEA'da) görünür. Uygulama verilerini cihaz ayarlarından sildiğinizde ya da uygulamayı kaldırdığınızda kayıtlı onay tercihiniz de silinir; onayın gerekli olduğu yerlerde uygulama bir sonraki açılışta yeniden sorar. iOS'ta ayrıca iOS Ayarları → "Gizlilik ve Güvenlik" altındaki takip (Tracking) ayarından izin verebilir ya da izni kaldırabilirsiniz. Android'de reklam kimliğinizi cihaz ayarlarından sıfırlayabilir ya da silebilirsiniz.</p>
+  <p>Bu verilerin alıcısı Google'dır. Google, gizlilik politikasında AEA ve İsviçre'deki kullanıcılar için veri sorumlusu olarak Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, İrlanda'yı gösterir. Veriler AB ya da AEA dışındaki ülkelere, özellikle ABD'ye de aktarılabilir; bu ülkelerde veri koruma düzeyi farklı olabilir. Google'ın kendi açıklamasına göre Google LLC, AB-ABD Veri Gizliliği Çerçevesi (EU-U.S. Data Privacy Framework) kapsamında sertifikalıdır; Google, gerektiğinde ve bir yeterlilik kararının kapsamadığı durumlarda standart sözleşme maddelerine dayanır: <a href="https://policies.google.com/privacy/frameworks" rel="noopener">policies.google.com/privacy/frameworks</a>.</p>
+  <p>Google'ın, kendi hizmetlerini kullanan uygulamalardan gelen verileri nasıl kullandığını buradan okuyabilirsiniz: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>. Google gizlilik politikası: <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
+  <p>Tam ekran reklamlar yalnızca tamamlanan bir zikir turundan sonra özet ekranını kapattığınızda görünebilir. Zikir çekerken uygulama reklam göstermez.</p>
+
+  <h2>7. Uygulamanın yapmadıkları</h2>
+  <ul>
+    <li>Kullanıcı hesabı ve kendi sunucumuz yoktur. Uygulama üzerinden hiçbir kişisel veri bize ulaşmaz.</li>
+    <li>Uygulamanın kendine ait bir analiz aracı ve çökme raporlama aracı yoktur. Google'ın reklam SDK'sı, reklam amacıyla ve dolandırıcılığı önlemek için kendi ölçümünü yapar; bu ölçüm ancak onay adımından sonra başlar (bkz. 6. bölüm).</li>
+  </ul>
+  <p>Uygulamayı indirdiğinizde Apple (App Store) ya da Google (Google Play) verileri kendi sorumluluklarında işler. Uygulamada bir bağlantıya dokunursanız (örneğin GeoNames ya da lisans metni) ilgili web sitesi açılır. Bu site IP adresinizi alır ve kendi sorumluluğunda işler.</p>
+  <p>Veri sağlamak için yasal ya da sözleşmeden doğan bir yükümlülüğünüz yoktur. Konum erişimi vermezseniz bir şehir seçersiniz. Reklam onayı vermezseniz kişiselleştirilmemiş ya da sınırlı reklamlar görürsünüz; uygulama yine de çalışır. GDPR m. 22 anlamında otomatik karar vermeyiz. Kişiselleştirilmiş reklamlarda Google profil oluşturur (bkz. 6. bölüm).</p>
+
+  <h2>8. Saklama süresi</h2>
+  <p>Cihazınızdaki veriler, cihaz ayarlarından uygulama verilerini silene ya da uygulamayı kaldırana kadar orada kalır. Uygulamada sildiğiniz bir zikir yalnızca gizlenir; hemen ardından bu işlemi geri alabilirsiniz. Gizlenen zikirler ancak uygulama verilerini sildiğinizde ya da uygulamayı kaldırdığınızda kalıcı olarak silinir. Sayaçları da sıfırlayabilirsiniz. Gizlenen zikirler sayaçları ve günlük sayımlarıyla birlikte saklanmaya devam eder; bir sayacı sıfırladığınızda da günlük istatistikler silinmez. Google ve Aladhan'ın verileri ne kadar sakladığını bu hizmetler kendileri belirler; lütfen yukarıda bağlantısını verdiğimiz açıklamalarına bakın.</p>
+
+  <h2>9. Haklarınız</h2>
+  <p>GDPR kapsamında bilgi alma (m. 15), düzeltme (m. 16), silme (m. 17), işlemenin kısıtlanması (m. 18), veri taşınabilirliği (m. 20) ve meşru menfaate dayanan işlemeye itiraz (m. 21) haklarınız vardır. Verdiğiniz onayı istediğiniz zaman geri alabilirsiniz (m. 7/3); geri almadan önce yapılan işlemenin hukuka uygunluğu bundan etkilenmez.</p>
+  <p class="box"><strong>İtiraz hakkı:</strong> Bu politikada GDPR m. 6/1-f'ye dayandırdığımız tüm işlemelere (2., 4. ve 6. bölüm), özel durumunuzdan kaynaklanan nedenlerle istediğiniz zaman itiraz edebilirsiniz (GDPR m. 21). Bunun için <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a> adresine yazın. 2. bölümdeki verileri kaldırmak için cihaz ayarlarından uygulama verilerini silebilirsiniz. GPS yerine bir şehir de seçebilirsiniz. Tanıtım ekranlarından sonra uygulama Aladhan'a yalnızca iki durumda yeni istek gönderir: namaz vakitlerini açtığınızda ya da yenilediğinizde ve konumu, hesaplama yöntemini veya mezhebi değiştirdiğinizde.</p>
+  <p>Bu hakları şöyle kullanabilirsiniz:</p>
+  <ul>
+    <li>Reklam onayı: Google'ın onay hizmeti bölgeniz için gerekli görüyorsa (örneğin AEA'da) uygulamada Ayarlar → "Reklam gizlilik seçenekleri"; ayrıca uygulama verilerini silerek ya da uygulamayı kaldırarak (bkz. 6. bölüm).</li>
+    <li>Cihazdaki veriler: Bunların çoğunu uygulamada görebilirsiniz (zikir listesi, sayaçlar, istatistikler, ayarlar, konum). Teknik yardımcı değerler uygulamada gösterilmez; örneğin reklam sıklık sınırı değerleri, tamamlanan zikir turlarının sayısı, kayıt biçiminin sürüm numarası, gizlenen zikirler, önbellekteki eski namaz vakitleri ve kayıtlı onay tercihi. Silmek için cihaz ayarlarından uygulama verilerini silebilir ya da uygulamayı kaldırabilirsiniz.</li>
+    <li>Sorularınız için <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a> adresine yazabilirsiniz. Sizinle ilgili veri saklamadığımız için genellikle yalnızca bu politikada anlatılan işleyiş hakkında bilgi verebiliriz. Google ya da Aladhan'daki verilerle ilgili taleplerinizi lütfen doğrudan bu hizmetlere iletin.</li>
+  </ul>
+  <p>Ayrıca bir veri koruma denetim makamına şikâyette bulunma hakkınız vardır (GDPR m. 77); özellikle yaşadığınız, çalıştığınız ya da ihlalin gerçekleştiğini düşündüğünüz üye devlette.</p>
+
+  <h2>10. Çocuklar</h2>
+  <p>Uygulama 16 yaşından küçük çocuklara yönelik değildir. Yaş doğrulaması yapılmaz.</p>
+
+  <h2>11. Değişiklikler</h2>
+  <p>Uygulama ya da mevzuat değişirse bu politikayı güncelleriz. Geçerli olan, bu sayfada yukarıdaki tarihle yayımlanmış güncel metindir.</p>
+
+  <a class="top" href="#top">Başa dön</a>
+</section>
+
+<!-- ============================ ENGLISH ============================ -->
+<section id="en" lang="en">
+  <h1>Privacy Policy for the Zikirmatik app</h1>
+  <p class="meta">Effective 24 September 2026</p>
+
+  <div class="box">
+    <p><strong>In short:</strong> Zikirmatik has no user account and no server of its own. Your counts, dhikr entries and settings stay on your device. For prayer times the app asks the Aladhan service. Ads come from Google AdMob; you decide in the consent dialog whether Google may show you personalised ads.</p>
+  </div>
+
+  <h2>1. Controller and contact</h2>
+  <p>Yasin Baytürk<br>
+  Habichtgasse 3, 88046 Friedrichshafen, Germany<br>
+  Email: <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a></p>
+  <p>No data protection officer has been appointed.</p>
+
+  <h2>2. Data stored only on your device</h2>
+  <p>The app keeps the following in its local storage on your device. We do not receive this data.</p>
+  <ul>
+    <li>Your dhikr list (bundled entries and the ones you add)</li>
+    <li>The count for each dhikr, daily counts for the statistics, and the dhikr you used last</li>
+    <li>Settings: language, appearance, haptics, calculation method and school for prayer times, whether reminders are on and how many minutes early they fire</li>
+    <li>Your location for prayer times: either the city you picked or coarsened GPS coordinates (see section 3), plus a display name and time zone</li>
+    <li>Whether you have finished the introduction, and for which device time zone you dismissed the "time zone changed" notice</li>
+    <li>Cached prayer times, so the app works offline. They are stored per day together with the location used (city or rounded position). Older entries are not deleted automatically and are not shown in the app.</li>
+    <li>The number of completed counting sessions and the times at which full-screen ads were shown, so the app limits how often ads appear (frequency cap)</li>
+    <li>A technical version number of the storage format</li>
+  </ul>
+  <p>Google's ads SDK also stores your consent choice on the device (see section 6). Reminders are handled by your device's operating system (see section 5). Depending on your device settings, the operating system may include app data in device backups; you control this in your device settings.</p>
+  <p>Legal basis: storing this on your device is strictly necessary for the features you use (Section 25(2) no. 2 of the German TDDDG). Where personal data is involved, we rely on Art. 6(1)(f) GDPR; our legitimate interest is that the app works as expected and your counts are not lost.</p>
+
+  <h2>3. Location</h2>
+  <p>You can pick a city from a list that ships with the app. The app then uses that city's coordinates, not where you actually are.</p>
+  <p>Or you can tap "Use my location". The app then asks for location permission and takes one reading while the app is open. There is no background location access. Before the coordinates are stored or sent, the app rounds them to a 0.03-degree grid. That is about 3.3 km north to south; in central Europe one grid cell covers several square kilometres. Your exact location is neither stored nor sent. The nearest city shown on screen is worked out on the device.</p>
+  <p>You can revoke the location permission in your device settings at any time and pick a city instead.</p>
+  <p>The city list is based on GeoNames data (CC BY 4.0), partly adapted. It contains no information about you.</p>
+
+  <h2>4. Prayer times from Aladhan</h2>
+  <p>To get prayer times, the app sends a request directly to <code>api.aladhan.com</code>. It does so when you finish the introduction, when you open or refresh the prayer times (including when you return to the app on that screen or tap "Retry"), and when you change the location, calculation method or school. If the app already has cached prayer times for that day, location and settings that are at most six hours old, it uses them and sends no request. The request contains the date, the coordinates from section 3 (city coordinates or coarsened GPS coordinates), the calculation method and the school you chose. As with any internet connection, the recipient technically receives your IP address. Like every web request, it also carries standard technical details such as the user agent (information about the software in use). The app sends nothing else, such as identifiers or your counts.</p>
+  <p>The recipient is AlAdhan.com (part of the Islamic Network), an independent service. We do not know where Aladhan processes data or how long it keeps it; processing outside the EU/EEA is possible. Aladhan's terms of use are at <a href="https://aladhan.com/credits-and-terms" rel="noopener">aladhan.com/credits-and-terms</a>.</p>
+  <p>The legal basis is Art. 6(1)(f) GDPR. Our legitimate interest is showing you prayer times and scheduling your reminders to match them. The data sent is kept to the minimum, and you can always pick a city instead of using GPS.</p>
+
+  <h2>5. Reminders</h2>
+  <p>If you turn on prayer reminders, the app asks for permission to send notifications. Reminders are scheduled locally on your device. There is no push server, and no push token is created or sent.</p>
+
+  <h2>6. Ads (Google AdMob)</h2>
+  <p>The app is free and paid for by ads, using the Google Mobile Ads SDK. According to Google, the SDK collects, among other things, your IP address, device and advertising identifiers (such as the advertising ID), information about your interactions with the app and ads (such as app launches, taps and video views), and diagnostic data. Google uses this data for advertising, measurement and fraud prevention.</p>
+  <p>When the app starts, it asks for your consent through Google's consent dialog (User Messaging Platform) where consent is required, for example in the EEA and the UK. The app starts the ads SDK and loads ads only after Google's consent service reports that ads may be requested. Only then does the ads SDK's own measurement begin. On iOS you may also see the system's App Tracking Transparency prompt; where the GDPR applies (for example in the EEA), it appears only if you agreed in the consent dialog to information being stored on and read from your device. The device's advertising identifier (IDFA) can only be used if you allow it in that prompt.</p>
+  <p>Each time the app starts, it asks Google's consent service whether consent is required. Google receives your IP address in doing so. The legal basis for this is Art. 6(1)(f) GDPR; our legitimate interest is obtaining and managing consent lawfully.</p>
+  <p>If you do not consent, Google says it does not show personalised ads. Non-personalised ads may still appear; they are based on context rather than your past behaviour, for example the app itself and an approximate city-level location derived from your IP address. According to Google, identifiers are still used with non-personalised ads for frequency capping and aggregated reporting. Where consent is required, this happens only if you have agreed to information being stored on and read from your device. If you have not, Google may show only limited ads ("Limited Ads").</p>
+  <p>For personalised ads and for storing or reading identifiers on your device, the legal basis is your consent (Art. 6(1)(a) GDPR, Section 25(1) TDDDG). For serving non-personalised ads we rely on Art. 6(1)(f) GDPR; our legitimate interest is being able to offer the app for free.</p>
+  <p>You can withdraw or change your consent at any time, with effect for the future, in the app under Settings → "Ad privacy options". This entry appears only where Google's consent service requires it for your region, for example in the EEA. Clearing the app's data in your device settings or uninstalling the app also removes the stored consent choice; where consent is required, the app asks again the next time it starts. On iOS you can also allow or block tracking in the iOS Settings under "Privacy &amp; Security" → "Tracking". On Android you can reset or delete your advertising ID in the device settings.</p>
+  <p>The recipient of this data is Google. For users in the EEA and Switzerland, Google's privacy policy names Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland, as the controller. Data may also be transferred to countries outside the EU/EEA, in particular the United States, where the level of data protection may differ. According to Google, Google LLC is certified under the EU-U.S. Data Privacy Framework, and Google relies on standard contractual clauses where required and where a transfer is not covered by an adequacy decision: <a href="https://policies.google.com/privacy/frameworks" rel="noopener">policies.google.com/privacy/frameworks</a>.</p>
+  <p>Google explains how it uses information from apps that use its services here: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>. Google's privacy policy: <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
+  <p>Full-screen ads can appear only when you close the summary after a completed session. The app shows no ads while you are counting.</p>
+
+  <h2>7. What the app does not do</h2>
+  <ul>
+    <li>There is no user account and no server of our own. We do not receive any personal data through the app.</li>
+    <li>The app has no analytics tool of its own and no crash reporting. Google's ads SDK does its own measurement for advertising and fraud prevention; this measurement starts only after the consent step (see section 6).</li>
+  </ul>
+  <p>When you download the app, Apple (App Store) or Google (Google Play) process data under their own responsibility. If you tap a link in the app (for example to GeoNames or the licence text), the linked website opens. It receives your IP address and processes it under its own responsibility.</p>
+  <p>You are not legally or contractually required to provide any data. Without location access you pick a city. Without ad consent you see non-personalised or limited ads, and the app still works. We make no automated decisions within the meaning of Art. 22 GDPR. With personalised ads, Google creates profiles (see section 6).</p>
+
+  <h2>8. How long data is kept</h2>
+  <p>Data on your device stays there until you clear the app's data in your device settings or uninstall the app. If you delete a dhikr entry in the app, it is only hidden; you can undo this right afterwards. Hidden entries are removed for good only when you clear the app's data or uninstall the app. You can also reset counters. Hidden entries stay stored together with their counts and daily counts, and resetting a counter leaves the daily statistics in place. Google and Aladhan decide themselves how long they keep data; please see their pages linked above.</p>
+
+  <h2>9. Your rights</h2>
+  <p>Under the GDPR you have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20), and to object to processing based on legitimate interests (Art. 21). You can withdraw consent at any time (Art. 7(3)); this does not affect the lawfulness of processing before the withdrawal.</p>
+  <p class="box"><strong>Right to object:</strong> You can object at any time, on grounds relating to your particular situation, to any processing that this policy bases on Art. 6(1)(f) GDPR, that is, in sections 2, 4 and 6 (Art. 21 GDPR). To do so, write to <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a>. In practice, you can also remove the data described in section 2 by clearing the app's data in your device settings. You can pick a city instead of using GPS. After the introduction, the app sends further requests to Aladhan only when you open or refresh the prayer times or change the location, calculation method or school.</p>
+  <p>How to use these rights:</p>
+  <ul>
+    <li>Ad consent: in the app under Settings → "Ad privacy options" where Google's consent service requires this entry for your region (for example in the EEA), or by clearing the app's data or uninstalling the app (see section 6).</li>
+    <li>Data on your device: you can see most of it in the app (dhikr list, counts, statistics, settings, location). Technical helper values are not shown, for example the ad frequency-cap values, the number of completed counting sessions, the storage format version, hidden dhikr entries, older cached prayer times and the stored consent choice. To delete it, clear the app's data in your device settings or uninstall the app.</li>
+    <li>For questions, write to <a href="mailto:ysnbytrk@gmail.com">ysnbytrk@gmail.com</a>. Because we do not store data about you, we can usually only tell you about the processes described in this policy. Please send requests about data held by Google or Aladhan to those services.</li>
+  </ul>
+  <p>You also have the right to lodge a complaint with a data protection supervisory authority (Art. 77 GDPR), in particular in the member state where you live, work, or where the suspected infringement took place.</p>
+
+  <h2>10. Children</h2>
+  <p>The app is not directed at children under 16. We do not verify anyone's age.</p>
+
+  <h2>11. Changes</h2>
+  <p>If the app or the law changes, we will update this policy. The version published on this page, with the date shown above, applies.</p>
+
+  <a class="top" href="#top">Back to top</a>
+</section>
+
+</main>
+</body>
+</html>
